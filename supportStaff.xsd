@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://www.w3schools.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="supportStaff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="emp">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="empId" type="xs:unsignedByte" />
+              <xs:element name="position" type="xs:string" />
+              <xs:element name="firstName" type="xs:string" />
+              <xs:element name="lastName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

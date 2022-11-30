@@ -1,0 +1,6 @@
+<!ELEMENT supportStaff (emp)>
+<!ELEMENT emp (empId, position, firstName, lastName)>
+<!ELEMENT empId (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT firstName (#PCDATA)>
+<!ELEMENT lastName (#PCDATA)>

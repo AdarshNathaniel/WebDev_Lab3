@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone = "no" ?>
+
+<!-- Details of the Support Staff -->
+<!DOCTYPE supportStaff SYSTEM "supportStaff.dtd">
+<?xml-stylesheet type="text/xsl" href="supportStaff.xsl"?>
+
+<supportStaff
+xmlns="https://www.w3schools.com"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://www.w3schools.com/xml supportStaff.xsd">
+	<emp>
+		<empId>101</empId>
+		<position>Owner</position>
+		<firstName>Kalanithi</firstName>
+		<lastName>Maran</lastName>
+	</emp>
+	
+	<emp>
+		<empId>102</empId>
+		<position>CEO</position>
+		<firstName>K</firstName>
+		<lastName>Shanmugham</lastName>
+	</emp>
+
+	<emp>
+		<empId>103</empId>
+		<position>General Manager</position>
+		<firstName>Srinath</firstName>
+		<lastName>Bhashyam</lastName>
+	</emp>
+
+	<emp>
+		<empId>104</empId>
+		<position>Head Coach</position>
+		<firstName>Brian</firstName>
+		<lastName>Lara</lastName>
+	</emp>
+
+	<emp>
+		<empId>105</empId>
+		<position>Assistant Coach</position>
+		<firstName>Simon</firstName>
+		<lastName>Helmot</lastName>
+	</emp>
+
+	<emp>
+		<empId>106</empId>
+		<position>Strategic Coach</position>
+		<firstName>Muttiah</firstName>
+		<lastName>Muralitharan</lastName>
+	</emp>
+
+	<emp>
+		<empId>107</empId>
+		<position>Bowling Coach</position>
+		<firstName>Dale</firstName>
+		<lastName>Steyn</lastName>
+	</emp>
+	
+	<emp>
+		<empId>108</empId>
+		<position>Fielding Coach</position>
+		<firstName>Hemang</firstName>
+		<lastName>Badani</lastName>
+	</emp>
+
+	<emp>
+		<empId>109</empId>
+		<position>Physio</position>
+		<firstName>Theo</firstName>
+		<lastName>Kapakoulakis</lastName>
+	</emp>
+
+	<emp>
+		<empId>110</empId>
+		<position>Physical Trainer</position>
+		<firstName>Mario</firstName>
+		<lastName>Villavarayan</lastName>
+	</emp>
+</supportStaff>
